@@ -26,7 +26,7 @@ api_key = os.getenv("BYTEDANCE_APIKEY")
 
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+  api_key=api_key,
 )
 
 completion = client.chat.completions.create(

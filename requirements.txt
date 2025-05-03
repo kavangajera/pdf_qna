@@ -1,3 +1,5 @@
 openai
 pymupdf
 python-dotenv
+flask
+flask-cors
